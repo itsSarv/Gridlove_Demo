@@ -1,0 +1,23 @@
+{
+  "name": "gridlove_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsSarv/Gridlove_Demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsSarv/Gridlove_Demo/issues"
+  },
+  "homepage": "https://github.com/itsSarv/Gridlove_Demo#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.12"
+  }
+}
