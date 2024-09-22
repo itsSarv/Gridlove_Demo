@@ -1,51 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GridLove</title>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GridLove</title>
+        <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="flex px-40 py-8 justify-between relative">
-        <img src="/assets/gridlove_logo.png" alt="logo">
-        <ul class="flex justify-between gap-2 items-center">
-            <li>
-                    <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Home</a>
-            </li>
-            <li>
-                    <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Modules</a>
-            </li>
-            <li>
-                    <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Posts</a>
-            </li>
-            <li>
-                    <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Archives</a>
-            </li>
-            <li>
-                    <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Pages</a>
-            </li>
-            <li>
-                    <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Features</a>
-            </li>
-        </ul>
-    </nav>
+        <nav class="flex mx-44 py-8 justify-between relative">
+                <img src="/assets/gridlove_logo.png" alt="logo">
+                <ul class="flex justify-between gap-2 items-center">
+                        <li>
+                                <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Home</a>
+                        </li>
+                        <li>
+                                <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Modules</a>
+                        </li>
+                        <li>
+                                <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Posts</a>
+                        </li>
+                        <li>
+                                <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Archives</a>
+                        </li>
+                        <li>
+                                <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Pages</a>
+                        </li>
+                        <li>
+                                <a class="px-4 py-2 hover:bg-gray-300 font-semibold" href="#">Features</a>
+                        </li>
+                </ul>
+        </nav>
+
+        <!-- hero section -->
+        <div class="absolute w-full lg:h-[70%] sm:h-[50%] h-[40%]  bg-black">
+                <img class="w-full h-full object-cover object-center" src="/assets/gridlock_37-1500x500.jpg"
+                        alt="gridlockhome">
+                <div class="absolute h-full flex flex-col justify-center top-0 text-white ml-44 gap-28">
+                        <div class="flex flex-col items-start gap-4">
+                                <button
+                                        class="px-3 py-1 bg-blue-500 rounded-full text-xs font-medium hover:bg-white hover:text-black">LIFESTYLE</button>
+                                <h1 class="text-4xl font-semibold">Everything you ever need <br> to know about flowers
+                                </h1>
+                                <p>Credibly empower enterprise wide mindshare for excellent <br> “outside the box”
+                                        thinking. Proactively mesh impactful <br> meta services rather than enterprise
+                                        results. Professionally <br> generate end-to-end human capital...</p>
+                        </div>
+                        <div class=" flex gap-2 items-center">
+                                <img class="rounded-full" src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
+                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">Lisa ScholfieldS</p>
+                        </div>
+                </div>
+
+                <!-- Editor's Pick Section -->
+                <div class="mx-44 my-6">
+                        <h1 class="text-3xl font-semibold">Editor's Pack</h1>
+                        <div>
+                                <div class="flex py-6 justify-between">
+                                        <div class="flex border-2">
+                                                <img src="/assets/gridlock_38-385x300.jpg" alt="entertainment_image">
+                                                <div class=" flex flex-col gap-4 px-6 items-start justify-center">
+                                                        <button
+                                                                class="px-3 py-1 bg-blue-500 rounded-full text-xs font-medium hover:bg-white hover:text-black">LIFESTYLE</button>
+                                                        <h1 class="text-2xl font-semibold">Everything you ever need <br>
+                                                                to know
+                                                                about flowers
+                                                        </h1>
+                                                        <p>Monotonectally pursue backward-compatible <br>ideas without
+                                                                empowered
+                                                                imperatives. <br> Interactively predominate low-risk
+                                                                high-yield
+                                                                <br> ROI rather than adaptive e-tailers....
+                                                        </p>
+                                                        <div class=" flex gap-2 items-center">
+                                                                <img class="rounded-full"
+                                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg"
+                                                                        alt="user">
+                                                                <p
+                                                                        class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                                        Lisa
+                                                                        ScholfieldS</p>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <div>
+                                                <img src="/assets/gridlock_24-370x300.jpg" alt="albert">
+                                        </div>
+                                </div>
+
+                                <div class="py-6 flex justify-between">
+                                        <div class="py-6 px-6 flex flex-col gap-4 items-start justify-center border-2">
+                                                <button
+                                                        class="px-3 py-1 bg-blue-500 rounded-full text-xs font-medium hover:bg-white hover:text-black">LIFESTYLE</button>
+                                                <h1 class="text-2xl font-semibold">Everything you ever need <br>
+                                                        to know
+                                                        about flowers
+                                                </h1>
+                                                <p>Monotonectally pursue backward-compatible <br>ideas without
+                                                        empowered
+                                                        imperatives. <br> Interactively predominate low-risk
+                                                        high-yield
+                                                        <br> ROI rather than adaptive e-tailers....
+                                                </p>
+                                                <div class=" flex gap-2 items-center">
+                                                        <img class="rounded-full"
+                                                                src="/assets/avatar_user_4_1473333956-24x24.jpg"
+                                                                alt="user">
+                                                        <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                                Lisa
+                                                                ScholfieldS</p>
+                                                </div>
+                                        </div>
+
+                                        <div class="flex flex-col border-2">
+                                                <img src="/assets/gridlock_01-370x150.jpg" alt="blub">
+                                                <div>
+                                                        <div class="flex flex-col items-start gap-4">
+                                                                <h1 class="text-2xl font-semibold">Everything you ever
+                                                                        need <br> to know about flowers
+                                                                </h1>
+                                                        </div>
+                                                        <div class=" flex gap-2 items-center">
+                                                                <img class="rounded-full"
+                                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg"
+                                                                        alt="user">
+                                                                <p
+                                                                        class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                                        Lisa ScholfieldS</p>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <div>
+                                                <img src="/assets/gridlove_adsense.jpg" alt="ad">
+                                        </div>
+                                </div>
 
 
-    <div class="absolute w-full lg:h-[70%] sm:h-[50%] h-[40%]  bg-black">
-        <img class="w-full h-full object-cover object-center" src="/assets/gridlock_37-1500x500.jpg" alt="gridlockhome" >
-        <div class="absolute h-full flex flex-col justify-center top-0 text-white pl-40 gap-28">
-        <div class="flex flex-col items-start gap-4">
-                <button class="px-3 py-1 bg-blue-500 rounded-full text-xs font-medium hover:bg-white hover:text-black">LIFESTYLE</button>
-                <h1 class="text-4xl font-semibold">Everything you ever need <br> to know about flowers</h1>
-                <p>Credibly empower enterprise wide mindshare for excellent <br> “outside the box” thinking. Proactively mesh impactful <br> meta services rather than enterprise results. Professionally <br> generate end-to-end human capital</p>
+                        </div>
+                </div>
         </div>
-        <div class=" flex gap-2 items-center">
-                <img class="rounded-full" src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
-                <p class="text-xs hover:cursor-pointer hover:animate-pulse">Lisa ScholfieldS</p>
-        </div>
-        </div>  
-    </div>
+
+
+
+
 
 </body>
+
 </html>
