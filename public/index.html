@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>GridLove</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="stylesheet" href="style.css">
 </head>
 
@@ -57,6 +58,7 @@
                 <div class="mx-44 my-6">
                         <h1 class="text-3xl font-semibold">Editor's Pack</h1>
                         <div>
+                                <!-- first row -->
                                 <div class="flex py-6 justify-between">
                                         <div class="flex border-2">
                                                 <img src="/assets/gridlock_38-385x300.jpg" alt="entertainment_image">
@@ -90,6 +92,7 @@
                                         </div>
                                 </div>
 
+                                <!-- 2nd row -->
                                 <div class="py-6 flex justify-between">
                                         <div class="py-6 px-6 flex flex-col gap-4 items-start justify-center border-2">
                                                 <button
@@ -114,12 +117,20 @@
                                                 </div>
                                         </div>
 
-                                        <div class="flex flex-col border-2">
-                                                <img src="/assets/gridlock_01-370x150.jpg" alt="blub">
-                                                <div>
-                                                        <div class="flex flex-col items-start gap-4">
-                                                                <h1 class="text-2xl font-semibold">Everything you ever
-                                                                        need <br> to know about flowers
+                                        <div class="relative flex flex-col border-2 gap-4">
+                                                <div class="bg-black">
+                                                        <img class="hover:opacity-75"
+                                                                src="/assets/gridlock_01-370x150.jpg" alt="blub">
+                                                        <button
+                                                                class="absolute top-6 left-12 px-3 py-1 bg-blue-500 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">LIFESTYLE</button>
+                                                </div>
+                                                <div class="flex flex-col items-start gap-4 mx-auto">
+
+                                                        <div>
+                                                                <h1
+                                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                                        If you’re truly happy
+                                                                        and you <br> know it let it show
                                                                 </h1>
                                                         </div>
                                                         <div class=" flex gap-2 items-center">
@@ -129,6 +140,8 @@
                                                                 <p
                                                                         class="text-xs hover:cursor-pointer hover:animate-pulse">
                                                                         Lisa ScholfieldS</p>
+                                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                                <p class="text-xs text-gray-600">4 weeks ago</p>
                                                         </div>
                                                 </div>
                                         </div>
@@ -141,7 +154,145 @@
 
                         </div>
                 </div>
-        </div>
+
+                <!--This week hottest Section -->
+                <div class="mx-44 my-6">
+                        <h1 class="text-3xl font-semibold">This week hottest</h1>
+
+                        <!-- 1st row -->
+                        <div class="flex py-6 justify-between">
+                                <div class="flex border-2">
+                                        <img src="/assets/gridlock_13-335x300.jpg" alt="entertainment_image">
+                                        <div class=" flex flex-col gap-2 px-6 items-start justify-center">
+                                                <button
+                                                        class="px-3 py-1 bg-green-600 text-white rounded-full text-[10px] font-medium  hover:bg-black">FOOD
+                                                        & DRINKS</button>
+                                                <h1 class="text-xl font-semibold">With good typography you <br> don’t
+                                                        actually need images
+                                                </h1>
+                                                <p>Distinctively coordinate pandemic <br> technologies rather than
+                                                        market-driven <br> meta-services. Distinctively <br>
+                                                        reconceptualize high standards in...
+                                                        <br>
+                                                </p>
+                                                <div class=" flex gap-2 items-center">
+                                                        <img class="rounded-full"
+                                                                src="/assets/avatar_user_5_1473333966-24x24.jpg "
+                                                                alt="user">
+                                                        <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                                Joana Bergstein</p>
+                                                        <i class="fa-solid fa-eye ml-4"></i>
+                                                        <p class="text-xs text-gray-600">13,000 views</p>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="py-6 px-6 flex flex-col gap-2 items-start justify-center border-2">
+                                        <button
+                                                class="px-3 py-1 bg-red-600 text-white rounded-full text-xs font-medium hover:bg-black ">TRAVEL</button>
+                                        <h1 class="text-xl font-semibold">Don’t let fear stop you from having great
+                                                <br> adventures
+                                        </h1>
+                                        <p>Interactively enable intermandated platforms before <br>adaptive human
+                                                capital. Enthusiastically leverage existing <br>low-risk high-yield core
+                                                competencies with installed base <br> relationships. Rapidiously enhance
+                                                functional...
+                                        </p>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa
+                                                        ScholfieldS</p>
+                                                <i class="fa-solid fa-comment ml-4"></i>
+                                                <p class="text-xs text-gray-600">Add comment</p>
+                                        </div>
+                                </div>
+
+                        </div>
+
+                        <!-- 2nd row -->
+                        <div class="flex py-6 justify-between">
+                                <div
+                                        class="py-6 px-6 flex flex-col gap-4 items-start justify-center border-2 bg-[#083B5C] text-white">
+                                        <button
+                                                class="px-3 py-1 bg-orange-400 rounded-full text-xs font-medium hover:bg-white hover:text-black ">TECHNOLOGY</button>
+                                        <h1 class="text-xl font-semibold">Don’t let fear stop you from having great
+                                                <br> adventures
+                                        </h1>
+                                        <p>Interactively enable intermandated platforms before <br>adaptive human
+                                                capital. Enthusiastically leverage existing <br>low-risk high-yield core
+                                                competencies with installed base <br> relationships. Rapidiously enhance
+                                                functional...
+                                        </p>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa
+                                                        ScholfieldS</p>
+                                                <i class="fa-solid fa-comment ml-4"></i>
+                                                <p class="text-xs text-gray-200">Add comment</p>
+                                        </div>
+                                </div>
+
+
+                                <div class="relative">
+
+                                        <div class="bg-black text-white m-auto">
+                                                <img class="hover:opacity-75" src="/assets/gridlock_28-270x300.jpg"
+                                                        alt="img">
+                                                <div class="absolute top-0">
+                                                        <button
+                                                                class="px-3 py-1 bg-orange-400 rounded-full text-xs font-medium hover:bg-white hover:text-black ">TECHNOLOGY</button>
+                                                        <h1 class="text-xl font-semibold">Cards look so good <br> with a
+                                                                splash
+                                                                of color
+                                                                <br>on
+                                                                the categories
+                                                        </h1>
+                                                        <div class=" flex gap-2 items-center">
+                                                                <img class="rounded-full"
+                                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg"
+                                                                        alt="user">
+                                                                <p
+                                                                        class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                                        Lisa ScholfieldS</p>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+
+                                </div>
+
+                                <div class="py-6 px-6 flex flex-col gap-4 items-start justify-center border-2">
+                                        <button
+                                                class="px-3 py-1 bg-blue-500 rounded-full text-xs font-medium hover:bg-white hover:text-black">LIFESTYLE</button>
+                                        <h1 class="text-2xl font-semibold">Everything you ever need <br>
+                                                to know
+                                                about flowers
+                                        </h1>
+                                        <p>Monotonectally pursue backward-compatible <br>ideas without
+                                                empowered
+                                                imperatives. <br> Interactively predominate low-risk
+                                                high-yield
+                                                <br> ROI rather than adaptive e-tailers....
+                                        </p>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa
+                                                        ScholfieldS</p>
+                                        </div>
+                                </div>
+                        </div>
+
+
+
+
+
+                </div>
 
 
 
