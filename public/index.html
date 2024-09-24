@@ -9,8 +9,9 @@
         <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-        <nav class="flex mx-44 py-8 justify-between relative">
+<body class="bg-[#F3F3F3]">
+        <!-- nav section -->
+        <nav class="flex px-44 py-6 justify-between sticky top-0 bg-white w-full z-10">
                 <img src="/assets/gridlove_logo.png" alt="logo">
                 <ul class="flex justify-between gap-2 items-center">
                         <li>
@@ -35,9 +36,9 @@
         </nav>
 
         <!-- hero section -->
-        <div class="absolute w-full lg:h-[70%] sm:h-[50%] h-[40%]  bg-black">
-                <img class="w-full h-full object-cover object-center" src="/assets/gridlock_37-1500x500.jpg"
-                        alt="gridlockhome">
+        <div class="w-full lg:h-[70vh] sm:h-[50vh] h-[40vh]  bg-black">
+                <img class="absolute w-full lg:h-[70vh] sm:h-[50vh] h-[40vh] object-cover object-center"
+                        src="/assets/gridlock_37-1500x500.jpg" alt="gridlockhome">
                 <div class="absolute h-full flex flex-col justify-center top-0 text-white ml-44 gap-28">
                         <div class="flex flex-col items-start gap-4">
                                 <button
@@ -53,48 +54,18 @@
                                 <p class="text-xs hover:cursor-pointer hover:animate-pulse">Lisa ScholfieldS</p>
                         </div>
                 </div>
+        </div>
 
-                <!-- Editor's Pick Section -->
-                <div class="mx-44 my-6">
-                        <h1 class="text-3xl font-semibold">Editor's Pack</h1>
-                        <div>
-                                <!-- first row -->
-                                <div class="flex py-6 justify-between">
-                                        <div class="flex border-2">
-                                                <img src="/assets/gridlock_38-385x300.jpg" alt="entertainment_image">
-                                                <div class=" flex flex-col gap-4 px-6 items-start justify-center">
-                                                        <button
-                                                                class="px-3 py-1 bg-blue-500 rounded-full text-xs font-medium hover:bg-white hover:text-black">LIFESTYLE</button>
-                                                        <h1 class="text-2xl font-semibold">Everything you ever need <br>
-                                                                to know
-                                                                about flowers
-                                                        </h1>
-                                                        <p>Monotonectally pursue backward-compatible <br>ideas without
-                                                                empowered
-                                                                imperatives. <br> Interactively predominate low-risk
-                                                                high-yield
-                                                                <br> ROI rather than adaptive e-tailers....
-                                                        </p>
-                                                        <div class=" flex gap-2 items-center">
-                                                                <img class="rounded-full"
-                                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg"
-                                                                        alt="user">
-                                                                <p
-                                                                        class="text-xs hover:cursor-pointer hover:animate-pulse">
-                                                                        Lisa
-                                                                        ScholfieldS</p>
-                                                        </div>
-                                                </div>
-                                        </div>
-
-                                        <div>
-                                                <img src="/assets/gridlock_24-370x300.jpg" alt="albert">
-                                        </div>
-                                </div>
-
-                                <!-- 2nd row -->
-                                <div class="py-6 flex justify-between">
-                                        <div class="py-6 px-6 flex flex-col gap-4 items-start justify-center border-2">
+        <!-- Editor's Pick Section -->
+        <div class="mx-44 my-6">
+                <h1 class="text-3xl font-semibold">Editor's Pack</h1>
+                <div>
+                        <!-- 1st row -->
+                        <div class="flex py-6 justify-between">
+                                <!-- 1st col -->
+                                <div class="flex border-2 shadow-lg">
+                                        <img src="/assets/gridlock_38-385x300.jpg" alt="entertainment_image">
+                                        <div class=" flex flex-col gap-4 px-6 items-start justify-center">
                                                 <button
                                                         class="px-3 py-1 bg-blue-500 rounded-full text-xs font-medium hover:bg-white hover:text-black">LIFESTYLE</button>
                                                 <h1 class="text-2xl font-semibold">Everything you ever need <br>
@@ -116,21 +87,20 @@
                                                                 ScholfieldS</p>
                                                 </div>
                                         </div>
+                                </div>
 
-                                        <div class="relative flex flex-col border-2 gap-4">
-                                                <div class="bg-black">
-                                                        <img class="hover:opacity-75"
-                                                                src="/assets/gridlock_01-370x150.jpg" alt="blub">
-                                                        <button
-                                                                class="absolute top-6 left-12 px-3 py-1 bg-blue-500 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">LIFESTYLE</button>
-                                                </div>
-                                                <div class="flex flex-col items-start gap-4 mx-auto">
-
-                                                        <div>
-                                                                <h1
-                                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
-                                                                        If you’re truly happy
-                                                                        and you <br> know it let it show
+                                <!-- 2nd col -->
+                                <div class="relative shadow-lg">
+                                        <div class="bg-black text-white m-auto">
+                                                <img class="opacity-80 hover:opacity-50"
+                                                        src="/assets/gridlock_24-370x300.jpg" alt="img">
+                                                <div class="absolute top-6 left-6 flex flex-col gap-32">
+                                                        <div class="flex flex-col items-start gap-4">
+                                                                <button
+                                                                        class="px-3 py-1 bg-orange-400 rounded-full text-xs font-medium hover:bg-white hover:text-black ">TECHNOLOGY</button>
+                                                                <h1 class="text-xl font-semibold">The world
+                                                                        needs true geniuses <br> now more than
+                                                                        ever
                                                                 </h1>
                                                         </div>
                                                         <div class=" flex gap-2 items-center">
@@ -140,132 +110,19 @@
                                                                 <p
                                                                         class="text-xs hover:cursor-pointer hover:animate-pulse">
                                                                         Lisa ScholfieldS</p>
-                                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
-                                                                <p class="text-xs text-gray-600">4 weeks ago</p>
                                                         </div>
                                                 </div>
                                         </div>
 
-                                        <div>
-                                                <img src="/assets/gridlove_adsense.jpg" alt="ad">
-                                        </div>
+
                                 </div>
-
-
-                        </div>
-                </div>
-
-                <!--This week hottest Section -->
-                <div class="mx-44 my-6">
-                        <h1 class="text-3xl font-semibold">This week hottest</h1>
-
-                        <!-- 1st row -->
-                        <div class="flex py-6 justify-between">
-                                <div class="flex border-2">
-                                        <img src="/assets/gridlock_13-335x300.jpg" alt="entertainment_image">
-                                        <div class=" flex flex-col gap-2 px-6 items-start justify-center">
-                                                <button
-                                                        class="px-3 py-1 bg-green-600 text-white rounded-full text-[10px] font-medium  hover:bg-black">FOOD
-                                                        & DRINKS</button>
-                                                <h1 class="text-xl font-semibold">With good typography you <br> don’t
-                                                        actually need images
-                                                </h1>
-                                                <p>Distinctively coordinate pandemic <br> technologies rather than
-                                                        market-driven <br> meta-services. Distinctively <br>
-                                                        reconceptualize high standards in...
-                                                        <br>
-                                                </p>
-                                                <div class=" flex gap-2 items-center">
-                                                        <img class="rounded-full"
-                                                                src="/assets/avatar_user_5_1473333966-24x24.jpg "
-                                                                alt="user">
-                                                        <p class="text-xs hover:cursor-pointer hover:animate-pulse">
-                                                                Joana Bergstein</p>
-                                                        <i class="fa-solid fa-eye ml-4"></i>
-                                                        <p class="text-xs text-gray-600">13,000 views</p>
-                                                </div>
-                                        </div>
-                                </div>
-
-                                <div class="py-6 px-6 flex flex-col gap-2 items-start justify-center border-2">
-                                        <button
-                                                class="px-3 py-1 bg-red-600 text-white rounded-full text-xs font-medium hover:bg-black ">TRAVEL</button>
-                                        <h1 class="text-xl font-semibold">Don’t let fear stop you from having great
-                                                <br> adventures
-                                        </h1>
-                                        <p>Interactively enable intermandated platforms before <br>adaptive human
-                                                capital. Enthusiastically leverage existing <br>low-risk high-yield core
-                                                competencies with installed base <br> relationships. Rapidiously enhance
-                                                functional...
-                                        </p>
-                                        <div class=" flex gap-2 items-center">
-                                                <img class="rounded-full"
-                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
-                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
-                                                        Lisa
-                                                        ScholfieldS</p>
-                                                <i class="fa-solid fa-comment ml-4"></i>
-                                                <p class="text-xs text-gray-600">Add comment</p>
-                                        </div>
-                                </div>
-
                         </div>
 
                         <!-- 2nd row -->
-                        <div class="flex py-6 justify-between">
+                        <div class="py-6 flex justify-between ">
+                                <!-- 1stcol -->
                                 <div
-                                        class="py-6 px-6 flex flex-col gap-4 items-start justify-center border-2 bg-[#083B5C] text-white">
-                                        <button
-                                                class="px-3 py-1 bg-orange-400 rounded-full text-xs font-medium hover:bg-white hover:text-black ">TECHNOLOGY</button>
-                                        <h1 class="text-xl font-semibold">Don’t let fear stop you from having great
-                                                <br> adventures
-                                        </h1>
-                                        <p>Interactively enable intermandated platforms before <br>adaptive human
-                                                capital. Enthusiastically leverage existing <br>low-risk high-yield core
-                                                competencies with installed base <br> relationships. Rapidiously enhance
-                                                functional...
-                                        </p>
-                                        <div class=" flex gap-2 items-center">
-                                                <img class="rounded-full"
-                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
-                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
-                                                        Lisa
-                                                        ScholfieldS</p>
-                                                <i class="fa-solid fa-comment ml-4"></i>
-                                                <p class="text-xs text-gray-200">Add comment</p>
-                                        </div>
-                                </div>
-
-
-                                <div class="relative">
-
-                                        <div class="bg-black text-white m-auto">
-                                                <img class="hover:opacity-75" src="/assets/gridlock_28-270x300.jpg"
-                                                        alt="img">
-                                                <div class="absolute top-0">
-                                                        <button
-                                                                class="px-3 py-1 bg-orange-400 rounded-full text-xs font-medium hover:bg-white hover:text-black ">TECHNOLOGY</button>
-                                                        <h1 class="text-xl font-semibold">Cards look so good <br> with a
-                                                                splash
-                                                                of color
-                                                                <br>on
-                                                                the categories
-                                                        </h1>
-                                                        <div class=" flex gap-2 items-center">
-                                                                <img class="rounded-full"
-                                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg"
-                                                                        alt="user">
-                                                                <p
-                                                                        class="text-xs hover:cursor-pointer hover:animate-pulse">
-                                                                        Lisa ScholfieldS</p>
-                                                        </div>
-                                                </div>
-                                        </div>
-
-
-                                </div>
-
-                                <div class="py-6 px-6 flex flex-col gap-4 items-start justify-center border-2">
+                                        class="py-6 px-6 flex flex-col gap-4 items-start justify-center border-2 shadow-lg">
                                         <button
                                                 class="px-3 py-1 bg-blue-500 rounded-full text-xs font-medium hover:bg-white hover:text-black">LIFESTYLE</button>
                                         <h1 class="text-2xl font-semibold">Everything you ever need <br>
@@ -286,14 +143,437 @@
                                                         ScholfieldS</p>
                                         </div>
                                 </div>
+
+                                <!-- 2nd col -->
+                                <div class="relative flex flex-col border-2 gap-4 shadow-lg">
+                                        <div class="bg-black">
+                                                <img class="hover:opacity-75" src="/assets/gridlock_01-370x150.jpg"
+                                                        alt="blub">
+                                                <button
+                                                        class="absolute top-6 left-12 px-3 py-1 bg-blue-500 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">LIFESTYLE</button>
+                                        </div>
+                                        <div class="flex flex-col items-start gap-4 mx-auto">
+
+                                                <div>
+                                                        <h1
+                                                                class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                                If you’re truly happy
+                                                                and you <br> know it let it show
+                                                        </h1>
+                                                </div>
+                                                <div class=" flex gap-2 items-center">
+                                                        <img class="rounded-full"
+                                                                src="/assets/avatar_user_4_1473333956-24x24.jpg"
+                                                                alt="user">
+                                                        <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                                Lisa ScholfieldS</p>
+                                                        <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                        <p class="text-xs text-gray-600">4 weeks ago</p>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <!-- 3rd col -->
+                                <div>
+                                        <img src="/assets/gridlove_adsense.jpg" alt="ad">
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <!--This week hottest Section -->
+        <div class="mx-44 my-6">
+                <h1 class="text-3xl font-semibold">This week hottest</h1>
+
+                <!-- 1st row -->
+                <div class="flex py-6 justify-between ">
+                        <!-- 1st col -->
+                        <div class="flex border-2 shadow-lg">
+                                <img src="/assets/gridlock_13-335x300.jpg" alt="entertainment_image">
+                                <div class=" flex flex-col gap-2 px-6 items-start justify-center">
+                                        <button
+                                                class="px-3 py-1 bg-green-600 text-white rounded-full text-[10px] font-medium  hover:bg-black">FOOD
+                                                & DRINKS</button>
+                                        <h1 class="text-xl font-semibold">With good typography you <br> don’t
+                                                actually need images
+                                        </h1>
+                                        <p>Distinctively coordinate pandemic <br> technologies rather than
+                                                market-driven <br> meta-services. Distinctively <br>
+                                                reconceptualize high standards in...
+                                                <br>
+                                        </p>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_5_1473333966-24x24.jpg " alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Joana Bergstein</p>
+                                                <i class="fa-solid fa-eye ml-4"></i>
+                                                <p class="text-xs text-gray-600">13,000 views</p>
+                                        </div>
+                                </div>
                         </div>
 
-
-
-
+                        <!-- 2nd col -->
+                        <div class="py-6 px-6 flex flex-col gap-2 items-start justify-center border-2 shadow-lg">
+                                <button
+                                        class="px-3 py-1 bg-red-600 text-white rounded-full text-xs font-medium hover:bg-black ">TRAVEL</button>
+                                <h1 class="text-xl font-semibold">Don’t let fear stop you from having great
+                                        <br> adventures
+                                </h1>
+                                <p>Interactively enable intermandated platforms before <br>adaptive human
+                                        capital. Enthusiastically leverage existing <br>low-risk high-yield core
+                                        competencies with installed base <br> relationships. Rapidiously enhance
+                                        functional...
+                                </p>
+                                <div class=" flex gap-2 items-center">
+                                        <img class="rounded-full" src="/assets/avatar_user_4_1473333956-24x24.jpg"
+                                                alt="user">
+                                        <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                Lisa
+                                                ScholfieldS</p>
+                                        <i class="fa-solid fa-comment ml-4"></i>
+                                        <p class="text-xs text-gray-600">Add comment</p>
+                                </div>
+                        </div>
 
                 </div>
 
+                <!-- 2nd row -->
+                <div class="flex py-6 justify-between">
+                        <!-- 1st col -->
+                        <div
+                                class="py-6 px-6 flex flex-col gap-4 items-start justify-center border-2 bg-[#083B5C] text-white shadow-lg">
+                                <button
+                                        class="px-3 py-1 bg-orange-400 rounded-full text-xs font-medium hover:bg-white hover:text-black ">TECHNOLOGY</button>
+                                <h1 class="text-xl font-semibold">Don’t let fear stop you from having great
+                                        <br> adventures
+                                </h1>
+                                <p>Interactively enable intermandated platforms before <br>adaptive human
+                                        capital. Enthusiastically leverage existing <br>low-risk high-yield core
+                                        competencies with installed base <br> relationships. Rapidiously enhance
+                                        functional...
+                                </p>
+                                <div class=" flex gap-2 items-center">
+                                        <img class="rounded-full" src="/assets/avatar_user_4_1473333956-24x24.jpg"
+                                                alt="user">
+                                        <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                Lisa
+                                                ScholfieldS</p>
+                                        <i class="fa-solid fa-comment ml-4"></i>
+                                        <p class="text-xs text-gray-200">Add comment</p>
+                                </div>
+                        </div>
+
+                        <!-- 2nd col -->
+                        <div class="relative">
+                                <div class="bg-black text-white m-auto shadow-lg">
+                                        <img class="hover:opacity-50 opacity-80" src="/assets/gridlock_28-270x300.jpg"
+                                                alt="img">
+                                        <div class="absolute top-6 left-6 flex flex-col gap-28">
+                                                <div class="flex flex-col items-start gap-4">
+                                                        <button
+                                                                class="px-3 py-1 bg-orange-400 rounded-full text-xs font-medium hover:bg-white hover:text-black ">TECHNOLOGY</button>
+                                                        <h1 class="text-xl font-semibold">Cards look so good
+                                                                <br> with a
+                                                                splash
+                                                                of color
+                                                                <br>on
+                                                                the categories
+                                                        </h1>
+                                                </div>
+                                                <div class=" flex gap-2 items-center">
+                                                        <img class="rounded-full"
+                                                                src="/assets/avatar_user_4_1473333956-24x24.jpg"
+                                                                alt="user">
+                                                        <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                                Lisa ScholfieldS</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- 3rd col -->
+                        <div class="py-6 px-6 flex flex-col gap-4 items-start justify-center border-2 shadow-lg">
+                                <button
+                                        class="px-3 py-1 bg-green-600 text-white rounded-full text-xs font-medium hover:bg-black hover:text-white">FOOD
+                                        & DRINKS</button>
+                                <h1 class="text-2xl font-semibold">An apple a day keeps the <br> dentist away
+                                </h1>
+                                <p>Monotonectally pursue backward-compatible <br>ideas without
+                                        empowered
+                                        imperatives. <br> Interactively predominate low-risk
+                                        high-yield
+                                        <br> ROI rather than adaptive e-tailers....
+                                </p>
+                                <div class=" flex gap-2 items-center">
+                                        <img class="rounded-full" src="/assets/avatar_user_4_1473333956-24x24.jpg"
+                                                alt="user">
+                                        <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                Lisa
+                                                ScholfieldS</p>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <!--Latest Article Section -->
+        <div class="mx-44 my-6">
+                <h1 class="text-3xl font-semibold">Latest article</h1>
+
+                <!-- 1st row -->
+                <div class="flex gap-6 my-8">
+                        <!-- 1stcol -->
+                        <div class="relative flex flex-col border-2 gap-4 pb-6 shadow-lg">
+                                <div class="bg-black">
+                                        <img class="hover:opacity-75" src="/assets/gridlock_23-370x150.jpg" alt="blub">
+                                        <button
+                                                class="absolute top-6 left-12 px-3 py-1 bg-red-600 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">TRAVEL</button>
+                                </div>
+                                <div class="flex flex-col items-start gap-4 mx-auto">
+
+                                        <div>
+                                                <h1
+                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                        If you’re truly happy
+                                                        and you <br> know it let it show
+                                                </h1>
+                                        </div>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa ScholfieldS</p>
+                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                <p class="text-xs text-gray-600">4 weeks ago</p>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- 2nd col -->
+                        <div class="relative flex flex-col border-2 gap-4 shadow-lg">
+                                <div class="bg-black">
+                                        <img class="hover:opacity-75" src="/assets/gridlock_32-370x150.jpg" alt="blub">
+                                        <button
+                                                class="absolute top-6 left-12 px-3 py-1 bg-green-600 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">FOOD
+                                                & DRINKS</button>
+                                </div>
+                                <div class="flex flex-col items-start gap-4 mx-auto">
+
+                                        <div>
+                                                <h1
+                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                        If you’re truly happy
+                                                        and you <br> know it let it show
+                                                </h1>
+                                        </div>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_3_1473333938-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa ScholfieldS</p>
+                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                <p class="text-xs text-gray-600">4 weeks ago</p>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- 3rd col -->
+                        <div class="relative flex flex-col border-2 gap-4 shadow-lg">
+                                <div class="bg-black">
+                                        <img class="hover:opacity-75" src="/assets/gridlock_04-370x150.jpg" alt="blub">
+                                        <button
+                                                class="absolute top-6 left-12 px-3 py-1 bg-purple-500 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">ENTERTAINMENT</button>
+                                </div>
+                                <div class="flex flex-col items-start gap-4 mx-auto">
+
+                                        <div>
+                                                <h1
+                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                        If you’re truly happy
+                                                        and you <br> know it let it show
+                                                </h1>
+                                        </div>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa ScholfieldS</p>
+                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                <p class="text-xs text-gray-600">4 weeks ago</p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+                <!-- 2nd row -->
+                <div class="flex gap-6 my-8">
+                        <!-- 1stcol -->
+                        <div class="relative flex flex-col border-2 gap-4 pb-6 shadow-lg">
+                                <div class="bg-black">
+                                        <img class="hover:opacity-75" src="/assets/gridlock_08-370x150.jpg" alt="blub">
+                                        <button
+                                                class="absolute top-6 left-12 px-3 py-1 bg-green-600 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">FOOD
+                                                & DRINKS</button>
+                                </div>
+                                <div class="flex flex-col items-start gap-4 mx-auto">
+
+                                        <div>
+                                                <h1
+                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                        If you’re truly happy
+                                                        and you <br> know it let it show
+                                                </h1>
+                                        </div>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa ScholfieldS</p>
+                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                <p class="text-xs text-gray-600">4 weeks ago</p>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- 2nd col -->
+                        <div class="relative flex flex-col border-2 gap-4 shadow-lg bg-[#083B5C]">
+                                <div class="bg-black">
+                                        <img class="hover:opacity-75" src="/assets/gridlock_34-370x150.jpg" alt="blub">
+                                        <button
+                                                class="absolute top-6 left-12 px-3 py-1 bg-purple-500 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">ENTERTAINMENT</button>
+                                </div>
+                                <div class="flex flex-col items-start gap-4 mx-auto text-white">
+                                        <div>
+                                                <h1
+                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                        If you’re truly happy
+                                                        and you <br> know it let it show
+                                                </h1>
+                                        </div>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_5_1473333966-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa ScholfieldS</p>
+                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                <p class="text-xs text-gray-300">4 weeks ago</p>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- 3rd col -->
+                        <div class="relative flex flex-col border-2 gap-4 shadow-lg">
+                                <div class="bg-black">
+                                        <img class="hover:opacity-75" src="/assets/gridlock_17-370x150.jpg" alt="blub">
+                                        <button
+                                                class="absolute top-6 left-12 px-3 py-1 bg-blue-500 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">LIFESTYLE</button>
+                                </div>
+                                <div class="flex flex-col items-start gap-4 mx-auto">
+
+                                        <div>
+                                                <h1
+                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                        If you’re truly happy
+                                                        and you <br> know it let it show
+                                                </h1>
+                                        </div>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_3_1473333938-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa ScholfieldS</p>
+                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                <p class="text-xs text-gray-600">4 weeks ago</p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+                <!-- 3rd row -->
+                <div class="flex gap-6 my-8">
+                        <!-- 1st col -->
+                        <div class="relative flex flex-col border-2 gap-4 pb-6 shadow-lg">
+                                <div class="bg-black">
+                                        <img class="hover:opacity-75" src="/assets/gridlock_11-370x150.jpg" alt="blub">
+                                        <button
+                                                class="absolute top-6 left-12 px-3 py-1 bg-red-600 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">TRAVEL</button>
+                                </div>
+                                <div class="flex flex-col items-start gap-4 mx-auto">
+
+                                        <div>
+                                                <h1
+                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                        If you’re truly happy
+                                                        and you <br> know it let it show
+                                                </h1>
+                                        </div>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_5_1473333966-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa ScholfieldS</p>
+                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                <p class="text-xs text-gray-600">4 weeks ago</p>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- 2nd col -->
+                        <div class="relative flex flex-col border-2 gap-4 shadow-lg">
+                                <div class="bg-black">
+                                        <img class="hover:opacity-75" src="/assets/gridlock_39-370x150.jpg" alt="blub">
+                                        <button
+                                                class="absolute top-6 left-12 px-3 py-1 bg-yellow-500 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">TECHNOLOGY</button>
+                                </div>
+                                <div class="flex flex-col items-start gap-4 mx-auto">
+
+                                        <div>
+                                                <h1
+                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                        If you’re truly happy
+                                                        and you <br> know it let it show
+                                                </h1>
+                                        </div>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_3_1473333938-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa ScholfieldS</p>
+                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                <p class="text-xs text-gray-600">4 weeks ago</p>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- 3rd col -->
+                        <div class="relative flex flex-col border-2 gap-4 shadow-lg">
+                                <div class="bg-black">
+                                        <img class="hover:opacity-75" src="/assets/gridlock_35-370x150.jpg" alt="blub">
+                                        <button
+                                                class="absolute top-6 left-12 px-3 py-1 bg-blue-500 text-white rounded-full text-[10px]  hover:bg-white hover:text-black">LIFESTYLE</button>
+                                </div>
+                                <div class="flex flex-col items-start gap-4 mx-auto">
+
+                                        <div>
+                                                <h1
+                                                        class="text-xl font-semibold hover:text-blue-500 hover:cursor-pointer">
+                                                        If you’re truly happy
+                                                        and you <br> know it let it show
+                                                </h1>
+                                        </div>
+                                        <div class=" flex gap-2 items-center">
+                                                <img class="rounded-full"
+                                                        src="/assets/avatar_user_4_1473333956-24x24.jpg" alt="user">
+                                                <p class="text-xs hover:cursor-pointer hover:animate-pulse">
+                                                        Lisa ScholfieldS</p>
+                                                <i class="fa-solid fa-bag-shopping ml-5"></i>
+                                                <p class="text-xs text-gray-600">4 weeks ago</p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+        </div>
 
 
 
